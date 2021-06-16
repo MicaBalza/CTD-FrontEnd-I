@@ -1,0 +1,85 @@
+:root {
+    --gray: #C4C4C4;
+    --light-gray: #E5E5E5;
+    --blue: #005677;
+}
+
+* {
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 104px 0 175px;
+    font-size: 15px;
+}
+
+h1, h3 {
+    text-transform: uppercase;
+    background-color: var(--gray);
+    color: var(--blue);
+    letter-spacing: 0.25em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+h3 {
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 18px;
+    padding-left: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.header-img-container {
+    height: 190px;
+    display: grid;
+    place-content: center;
+    background-color: var(--light-gray);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.personal-data > ul > li > span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.education > ul, .work-experience > ul {
+    list-style: none;
+    text-indent: -75px;
+    margin-left: 75px;
+}
+
+.education > ul {
+    width: 310px;
+}
+
+footer {
+    background-color: var(--blue);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer > * + * {
+    margin-left: 26px;
+}
