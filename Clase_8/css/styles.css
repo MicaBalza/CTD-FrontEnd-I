@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --dark-blue: #031435;
+    --pink: #ffcae9;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--dark-blue);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-image: url('../img/gradient.jpg');
+    background-position: center;
+    height: 200px;
+    border-bottom: 3px solid var(--pink);
+    position: relative;
+    display: grid;
+    place-items: center;
+    margin-bottom: 100px;
+}
+
+.photo-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-top: 80px;
+    border: 3px solid var(--pink);
+}
+
+.photo-container img {
+    width: 120%;   
+}
+
+/* MAIN */
+
+main {
+    color: var(--pink);
+    text-align: center;
+}
