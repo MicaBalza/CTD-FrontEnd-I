@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --green: #1CD1B0;
+    --blue: #00669F;
+    --gray: #F3F3F3;
+}
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+header {
+    position: sticky;
+    top: -38px;
+    z-index: 2;
+}
+
+.header-bar {
+    background-color: var(--green);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.header-title {
+    background-color: var(--blue);
+    padding: 28px 28px 26px;
+    box-shadow: 0 10px 7px 0 rgba(0, 0, 0, 0.25);
+}
+
+main {
+    padding: 150px 32px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+    background-color: var(--gray);
+    padding-bottom: 18px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 30px 0;
+}
+
+.corazon {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+}
+
+.avatar {
+    border-radius: 100px;
+    position: relative;
+    z-index: 1;
+    margin-top: -60px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card p {
+    text-align: left;
+    margin: 10px 16px 36px;
+}
+
+.button {
+    background-color: var(--blue);
+    color: white;
+    padding: 16px 36px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+footer {
+    background-color: var(--blue);
+    padding: 16px;
+    color: white;
+}
